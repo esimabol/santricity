@@ -1,109 +1,192 @@
-		img {
-			max-width:100%;
-			height: 1079px;
-		}
+img {
+	max-width:100%;
+	height: 1079px;
+}
 		
-		body {
-			margin: 0;
-			padding:0;
-			width:100%;
-			position: relative;
+body {
+	margin: 0;
+	padding:0;
+	width:100%;
+	position: relative;
 			
-		}
+}
 	
-		.button {			
-			height: 20px;
-			cursor:pointer;
-			border: 1px dashed red;
-			position: absolute;	
- 		}
-		#summary{
-			width:80px;
-			top: 16%;
-			left: 1.5%;
-			
-		}
+.button {			
+	height: 20px;
+	cursor:pointer;
+	border: 1px dashed red;
+	position: absolute;	
+}
+#summary{
+	width:80px;
+	top: 16%;
+	left: 1.5%;
+}
 
-		#performance{
-			width:80px;
-			top: 16%;
-			left: 7%;
-		}
+#performance{
+	width:80px;
+	top: 16%;
+	left: 7%;
+}
 
-		#storage_copy_services {
-			width:170px;
-			top: 16%;
-			left: 12%;
-		}
-		#host_mapping{	
-			width:90px;		
-			top: 16%;
-			left: 22%;
-		}
-		#hardware {
-			width:60px;
-			top: 16%;
-			left: 28.5%;
-		}
-		#setup{
-			width:50px;
-			top: 16%;
-			left: 33%;
-		}
-		#locate_storage_array {
-			width:110px;
-			top: 27%;
-			left: 2.8%;
-		}
-		#setup_rename_storage_array {
-			top: 31%;
-			width:120px;
-			left: 2.8%;
-		}
-		#setup_change_hardware_view_order{
-			top:35%;
-			width:160px;
-			left: 2.7%;
-		}
-		#setup_set_storage_array_password{
-			top:39%;
-			width:158px;
-			left: 2.8%;
-		}
-		#setup_manage_premium_features{
-			top:43%;
-			width:145px;
-			left: 2.8%;
-		}
-		#setup_create_storage{
-			top:47%;
-			width:80px;
-			left: 2.8%;
-		}
-		#setup_save_configuration{
-			top:51%;
-			width:100px;
-			left: 2.5%;
-		}
-		#setup_manually_define_host{
-			top:58.5%;
-			width:118px;
-			left: 2.8%;
-		}
-		#setup_map_volumes{
-			top:63%;
-			width:70px;
-			left: 2.8%;
-		}
-		#setup_configure_ethernet_management_ports{
-			top:67%;
-			width:205px;
-			left: 2.8%;
-		}
+#storage_copy_services {
+	width:170px;
+	top: 16%;
+	left: 12%;
+}
+#host_mapping{	
+	width:90px;		
+	top: 16%;
+	left: 22%;
+}
+#hardware {
+	width:60px;
+	top: 16%;
+	left: 28.5%;
+}
+#setup{
+	width:50px;
+	top: 16%;
+	left: 33%;
+}
+#locate_storage_array {
+	width:110px;
+	top: 27%;
+	left: 2.8%;
+}
+#setup_rename_storage_array {
+	top: 31%;
+	width:120px;
+	left: 2.8%;
+}
+#setup_change_hardware_view_order{
+	top:35%;
+	width:160px;
+	left: 2.7%;
+}
+#setup_set_storage_array_password{
+	top:39%;
+	width:158px;
+	left: 2.8%;
+}
+#setup_manage_premium_features{
+	top:43%;
+	width:145px;
+	left: 2.8%;
+}
+#setup_create_storage{
+	top:47%;
+	width:80px;
+	left: 2.8%;
+}
+#setup_save_configuration{
+	top:51%;
+	width:100px;
+	left: 2.5%;
+}
+#setup_manually_define_host{
+	top:58.5%;
+	width:118px;
+	left: 2.8%;
+}
+#setup_map_volumes{
+	top:63%;
+	width:70px;
+	left: 2.8%;
+}
+#setup_configure_ethernet_management_ports{
+	top:67%;
+	width:205px;
+	left: 2.8%;
+}
 
-		#controlador_A {
-			top: 25%;
-			left:7%;
-			height: 50px;
-			width:220px;
-		}
+#controlador_A {
+	top: 25%;
+	left:7%;
+	height: 50px;
+	width:220px;
+}
+/*Summary*/
+#storage_needs_attention{
+	top:24%;
+	left:3%;
+	width:165px;
+}
+#view_firmware_inventory {
+	top: 34%;
+	left: 2%;
+	width: 135px;
+	height:17px;
+
+}
+#view_storage_array_profile{
+	top: 36%;
+	left: 2%;
+	width: 140px;
+	height:17px;
+
+}
+#view_event_log{
+	top: 38%;
+	left: 2%;
+	width: 83px;
+	height:17px;
+
+}
+#collect_support_data_manually{
+	top:40%;
+	left: 2%;
+	width: 163px;
+}
+
+#create_storage{
+	top:53.6%;
+	left: 9%;
+	width:80px;
+}
+#host_to_volume_mappings{
+	top:31%;
+	left:34%;
+	width: 142px;
+}
+#manage_premium_features{
+	height: 15px;
+	top:57%;
+	left: 33%;
+	width: 143px;
+}
+#online_help{
+	top: 52%;
+	left: 48.7%;
+	width: 65px;
+	height:17px;
+
+}
+#storage_concepts_tutorial{
+	top:54%;
+	left:48.7%;
+	width:140px;
+	height:17px;
+}
+#planning_your_configuration{
+	top:56%;
+	left: 48.7%;
+	width:152px;
+	height: 16px;
+	height:17px;
+
+}
+#configuring_your_storage_array{
+	top:58%;
+	left: 48.7%;
+	width:165px;
+	height:17px;
+
+}
+#eseential_terms_to_know{
+	top:60%;
+	left: 48.7%;
+	width:135px;
+	height: 17px;
+}
+
