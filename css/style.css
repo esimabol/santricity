@@ -1,0 +1,109 @@
+		img {
+			max-width:100%;
+			height: 1079px;
+		}
+		
+		body {
+			margin: 0;
+			padding:0;
+			width:100%;
+			position: relative;
+			
+		}
+	
+		.button {			
+			height: 20px;
+			cursor:pointer;
+			border: 1px dashed red;
+			position: absolute;	
+ 		}
+		#summary{
+			width:80px;
+			top: 16%;
+			left: 1.5%;
+			
+		}
+
+		#performance{
+			width:80px;
+			top: 16%;
+			left: 7%;
+		}
+
+		#storage_copy_services {
+			width:170px;
+			top: 16%;
+			left: 12%;
+		}
+		#host_mapping{	
+			width:90px;		
+			top: 16%;
+			left: 22%;
+		}
+		#hardware {
+			width:60px;
+			top: 16%;
+			left: 28.5%;
+		}
+		#setup{
+			width:50px;
+			top: 16%;
+			left: 33%;
+		}
+		#locate_storage_array {
+			width:110px;
+			top: 27%;
+			left: 2.8%;
+		}
+		#setup_rename_storage_array {
+			top: 31%;
+			width:120px;
+			left: 2.8%;
+		}
+		#setup_change_hardware_view_order{
+			top:35%;
+			width:160px;
+			left: 2.7%;
+		}
+		#setup_set_storage_array_password{
+			top:39%;
+			width:158px;
+			left: 2.8%;
+		}
+		#setup_manage_premium_features{
+			top:43%;
+			width:145px;
+			left: 2.8%;
+		}
+		#setup_create_storage{
+			top:47%;
+			width:80px;
+			left: 2.8%;
+		}
+		#setup_save_configuration{
+			top:51%;
+			width:100px;
+			left: 2.5%;
+		}
+		#setup_manually_define_host{
+			top:58.5%;
+			width:118px;
+			left: 2.8%;
+		}
+		#setup_map_volumes{
+			top:63%;
+			width:70px;
+			left: 2.8%;
+		}
+		#setup_configure_ethernet_management_ports{
+			top:67%;
+			width:205px;
+			left: 2.8%;
+		}
+
+		#controlador_A {
+			top: 25%;
+			left:7%;
+			height: 50px;
+			width:220px;
+		}
