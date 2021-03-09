@@ -206,3 +206,45 @@ body {
 	right: 11%;
 	width:220px;
 }
+
+/* Storage Copy Services */
+#storage_array{
+	top: 21.8%;
+	left: 1.7%;
+	width:160px;
+}
+#all_logical_objects{
+	top: 24.1%;
+	left: 2.5%;
+	width:125px;
+}
+#total_unconfigured_capacity{
+	top: 26.6%;
+	left: 2.5%;
+	width:245px;
+}
+/* #unconfigured_capacity_hdd{
+	top: 32%;
+	left: 2.5%;
+	width:120px;
+}
+#unconfigured_capacity_ssd{
+	top: 21.8%;
+	left: 2.5%;
+	width:120px;
+} */
+#ssd_cache{
+	top: 28.8%;
+	left: 2.5%;
+	width:120px;
+}
+#disk_pools{
+	top: 31%;
+	left: 2.5%;
+	width:120px;
+}
+#volume_groups{
+	top: 33.3%;
+	left: 2.5%;
+	width:120px;
+}
