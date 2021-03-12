@@ -248,3 +248,31 @@ body {
 	left: 2.5%;
 	width:120px;
 }
+
+/* Host Mappings */
+
+#storage_array_host{
+	top: 21.8%;
+	left: 1.7%;
+	width:180px;
+}
+#undefined_Mappings{
+	top: 24.2%;
+	left: 2.5%;
+	width:140px;
+}
+#default_group{
+	top: 26.3%;
+	left: 2.5%;
+	width:100px;
+}
+#unassociated_host_port_identifiers{
+	top: 29%;
+	left: 2.5%;
+	width:205px;
+}
+#close_help{
+	bottom: 31%;
+	left: 48.2%;
+	width:65px;
+}
