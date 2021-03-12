@@ -99,13 +99,6 @@ body {
 	width:205px;
 	left: 2.8%;
 }
-
-#controlador_A {
-	top: 25%;
-	left:7%;
-	height: 50px;
-	width:220px;
-}
 /*Summary*/
 #storage_needs_attention{
 	top:24%;
@@ -275,4 +268,37 @@ body {
 	bottom: 31%;
 	left: 48.2%;
 	width:65px;
+}
+
+
+/* Hardware */
+#controlador_A {
+	top: 25%;
+	left:7%;
+	height: 50px;
+	width:220px;
+}
+#complete_controller_properties{
+	top: 23%;
+	left:25.8%;
+	width:200px;
+	height: 17px;
+}
+#view_tray_component{
+	top:40.5%;
+	left:18%;
+	width:120px;
+	height: 17px;
+}
+#sample_disk_unasigned{
+	top: 60%;
+	left:6%;
+	width: 47px;
+	height: 40px;
+}
+#sample_disk_assigned{
+	top: 48%;
+	left:6%;
+	width: 47px;
+	height: 40px;
 }
