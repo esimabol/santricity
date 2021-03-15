@@ -17,6 +17,10 @@ body {
 	position: absolute;	
 }
 
+.images {
+	display: none;
+}
+
 /* Menu bar */
 #menu_storage_array{
 	top:6.5%;
@@ -143,11 +147,6 @@ body {
 	left: 2.8%;
 }
 /*Summary*/
-#storage_needs_attention{
-	top:24%;
-	left:3%;
-	width:165px;
-}
 #view_firmware_inventory {
 	top: 34%;
 	left: 2%;
@@ -187,25 +186,24 @@ body {
 }
 #manage_premium_features{
 	height: 15px;
-	top:57%;
-	left: 33%;
-	width: 143px;
+	top:56%;
+	left: 32.8%;
+	width: 150px;
 }
 #online_help{
-	top: 52%;
+	top: 50%;
 	left: 48.7%;
 	width: 65px;
 	height:17px;
-
 }
 #storage_concepts_tutorial{
-	top:54%;
+	top:52%;
 	left:48.7%;
 	width:140px;
 	height:17px;
 }
 #planning_your_configuration{
-	top:56%;
+	top:54%;
 	left: 48.7%;
 	width:152px;
 	height: 16px;
@@ -213,19 +211,50 @@ body {
 
 }
 #configuring_your_storage_array{
-	top:58%;
+	top:56%;
 	left: 48.7%;
 	width:165px;
 	height:17px;
 
 }
 #eseential_terms_to_know{
-	top:60%;
+	top:58%;
 	left: 48.7%;
 	width:135px;
 	height: 17px;
 }
 
+#close_inventory {
+	bottom:24.1%;
+	left:44.2%;
+	width:62px;
+}
+#close_storage_array_profile{
+	bottom:25%;
+	left:63%;
+	width:62px;
+}
+
+#close_event_log{
+	bottom:33%;
+	left:49%;
+	width:62px;
+}
+#close_support_data{
+	bottom: 29%;
+	left:48%;
+	width:62px;
+}
+#close_volume_mappings{
+	bottom: 32%;
+	left:48.7%;
+	width:62px;
+}
+#close_premium_features{
+	bottom: 14%;
+	left:46.5%;
+	width:62px;
+}
 /* Performance */
 #launch_real_time_textual_performance_monitor{
 	top:20%;
@@ -272,17 +301,17 @@ body {
 #ssd_cache{
 	top: 28.8%;
 	left: 2.5%;
-	width:120px;
+	width:90px;
 }
-#disk_pools{
+#consistency_groups{
 	top: 31%;
 	left: 2.5%;
-	width:120px;
+	width:147px;
 }
-#volume_groups{
+#asynchronous_mirror{
 	top: 33.3%;
 	left: 2.5%;
-	width:120px;
+	width:180px;
 }
 
 /* Host Mappings */
@@ -298,21 +327,15 @@ body {
 	width:140px;
 }
 #default_group{
-	top: 26.3%;
+	top: 26.6%;
 	left: 2.5%;
-	width:100px;
+	width:105px;
 }
 #unassociated_host_port_identifiers{
 	top: 29%;
 	left: 2.5%;
 	width:205px;
 }
-#close_help{
-	bottom: 31%;
-	left: 48.2%;
-	width:65px;
-}
-
 
 /* Hardware */
 #controlador_A {
@@ -345,3 +368,7 @@ body {
 	width: 47px;
 	height: 40px;
 }
+
+
+
+
