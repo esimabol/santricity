@@ -22,42 +22,445 @@ body {
 }
 
 /* Menu bar */
+
+/* Menu Storage Array */
 #menu_storage_array{
 	top:6.5%;
 	left:0.3%;
 	width:60px;
 }
+#storageArraySecurity{
+	top: 12%;
+	left: 1.5%;
+	width:125px;
+}
+#storageArraychange{
+	top: 15%;
+	left: 1.5%;
+	width:125px;
+}
+#storageArrayconfiguration{
+	top: 18%;
+	left: 1.5%;
+	width:125px;
+}
+
+#storageArrayconfigurationAutomatic{
+	top: 18%;
+	left: 9%;
+	width:100px;
+}
+#storageArrayconfigurationClear{
+	top: 25.6%;
+	left: 9%;
+	width:100px;
+}
+#driveSecurity{
+	top: 13.6%;
+	left: 9%;
+	width:90px;
+}
+
+#storageArraySecurityKeyManagement{
+	top: 13.6%;
+	left: 15%;
+	width:110px;
+}
+/* end */
 #menu_storage{
 	top:6.5%;
 	left: 4.5%;
 	width:25px;
 }
+
+#diskPool{
+	top: 9%;
+	left: 5%;
+	width:90px;
+}
+
+#volumeGroup{
+	top: 12%;
+	left: 5%;
+	width:90px;
+}
+#volume{
+	top: 15%;
+	left: 5%;
+	width:90px;
+}
+#ssdCache{
+	top: 18%;
+	left: 5%;
+	width:90px;
+}
+#storageDiskPoolChange{
+	top: 27%;
+	left: 12%;
+	width:90px;
+}
+#storageDiskPoolAdvanced{
+	top: 34.7%;
+	left: 12%;
+	width:90px;
+}
+#storageVolumeGroupChange{
+	top: 27.8%;
+	left: 12%;
+	width:90px;
+}
+#storageVolumeGroupAdvanced{
+	top: 35.4%;
+	left: 12%;
+	width:90px;
+}
+#volumeCreate{
+	top: 15%;
+	left: 12%;
+	width:90px;
+}
+#volumeSsdCache{
+	top: 23%;
+	left: 12%;
+	width:90px;
+}
+#volumeChange{
+	top: 25.5%;
+	left: 12%;
+	width:90px;
+}
+#volumeAdvanced{
+	top: 41.4%;
+	left: 12%;
+	width:90px;
+}
+ /* end */
 #menu_copy_services{
 	top:6.5%;
 	left: 7.2%;
 	width:50px;
 }
+#volumeCopy{
+	top:9%;
+	left: 8%;
+	width:210px;
+}
+#snapshotGroup{
+	top:11.5%;
+	left: 8%;
+	width:210px;
+}
+#snapshotImage{
+	top:14%;
+	left:8%;
+	width:210px;
+}
+#snapshotVolume{
+	top:16.3%;
+	left:8%;
+	width:210px;
+}
+#consistencyGroup{
+	top:18.7%;
+	left:8%;
+	width:210px;
+}
+#consistencyGroupSnapshotImage{
+	top:21%;
+	left:8%;
+	width:210px;
+}
+#consistencyGroupSnapshotVolume{
+	top:23%;
+	left:8%;
+	width:210px;
+}
+#consistencyGroupMemberVolume{
+	top:25.3%;
+	left:8%;
+	width:210px;
+}
+#mirroring{
+	top:28%;
+	left:8%;
+	width:210px;
+}
+
+#csoverallRepository{
+	top:22%;
+	left:20%;
+	width:190px;
+}
+#csAdvanced{
+	top:35.5%;
+	left:20%;
+	width:190px;
+}
+
+#rollback{
+	top:19%;
+	left:20%;
+	width:160px;
+}
+#snapAdvanced{
+	top:26.6%;
+	left:30%;
+	width:90px;
+}
+#snapSsdCache{
+	top:29.7%;
+	left:21%;
+	width:90px;
+}
+#snapVolOverallRepository{
+	top:32.6%;
+	left:21%;
+	width:90px;
+}
+#snapVolAdvanced{
+	top:46.5%;
+	left:21%;
+	width:90px;
+}
+
+#cgSnapshotImage{
+	top:22%;
+	left:21%;
+	width:190px;
+}
+#cgAdvanced{
+	top:39.5%;
+	left:21%;
+	width:190px; 
+}
+
+#cgSnapVolRollback{
+	top:25.7%;
+	left:21%;
+	width:190px;
+}
+#cgSnapVolSsdCache{
+	top:31%;
+	left:21%;
+	width:60px;
+}
+#cgMemberOverallRepo{
+	top:28%;
+	left:21%;
+	width:130px;
+}
+#cgMemberAdvanced{
+	top:33.7%;
+	left:21%;
+	width:130px;
+}
+#asyncMirroring{
+	top:36%;
+	left:21%;
+	width:130px;
+}
+#syncMirroring{
+	top:38.7%;
+	left:21%;
+	width:130px;
+}
+#mirrorGroup{
+	top:35.8%;
+	left:32%;
+	width:70px;
+}
+#mirroredPair{
+	top:38%;
+	left:32%;
+	width:70px;
+}
+#mirrorGroupChange{
+	top:50%;
+	left:38%;
+	width:130px;
+}
+#mirrorGroupAdvanced{
+	top:63%;
+	left:38%;
+	width:130px;
+}
+
+#mirroredPairOverallRepo{
+	top:43.5%;
+	left:38%;
+	width:100px;
+}
+
+#syncMirroringChange{
+	top:47%;
+	left:32%;
+	width:100px;
+}
+/* end */
 #menu_host_mapping{
 	top:6.5%;
 	left: 11.5%;
 	width:50px;
 
 }
+#hostMappingDefine{
+	top:9%;
+	left:12.5%;
+	width:150px;
+}
+#hostMappingLunMapping{
+	top:12%;
+	left:12.5%;
+	width:150px;
+}
+#hostMappingDefaultGroup{
+	top:19.5%;
+	left:12.5%;
+	width:150px;
+}
+#hostMappingHostGroup{
+	top:21.7%;
+	left:12.5%;
+	width:150px;
+}
+#hostMappingHost{
+	top:24%;
+	left:12.5%;
+	width:150px;
+}
+/* end */
 #menu_hardware{
 	top:6.5%;
 	left: 16%;
 	width:30px;
 }
+#hardwareLocate{
+	top:9%;
+	left:17%;
+	width:110px;
+}
+#hardwareTray{
+	top:11.6%;
+	left:17%;
+	width:110px;
+}
+#hardwareController{
+	top:14%;
+	left:17%;
+	width:110px;
+}
+#hardwareDrive{
+	top:16.3%;
+	left:17%;
+	width:110px;
+}
+#trayViewEdit{
+	top:11.6%;
+	left:25%;
+	width:60px;
+}
+#trayChange{
+	top:14%;
+	left:25%;
+	width:60px;
+}
+
+#controllerConfigure{
+	top:16%;
+	left:25%;
+	width:90px;
+}
+#controllerChange{
+	top:19%;
+	left:25%;
+	width:90px;
+}
+#controllerAdvanced{
+	top:22%;
+	left:25%;
+	width:90px;
+}
+#controllerRunDiag{
+	top:24%;
+	left:33%;
+	width:110px;
+}
+#driveAdvanced{
+	top:24%;
+	left:25%;
+	width:90px;
+}
+/* end */
 #menu_monitor{
 	top:6.5%;
 	left: 19%;
 	width:30px;
 }
+#monitorHealth{
+	top:9%;
+	left: 19%;
+	width:60px;
+}
+#monitorReports{
+	top:12%;
+	left: 19%;
+	width:60px;
+}
+
+#monitorPerformance{
+	top:11%;
+	left: 24%;
+	width:160px;
+}
+#monitorAutosupport{
+	top:16%;
+	left: 24%;
+	width:160px;
+}
+#monitorStorageArrayDiag{
+	top:20%;
+	left: 24%;
+	width:160px;
+}
+#monitorDriveData{
+	top:23%;
+	left: 24%;
+	width:160px;
+}
+#realtimePerf{
+	top:10.8%;
+	left:36%;
+	width:160px;
+}
+#backgroundPerf{
+	top:13%;
+	left:36%;
+	width:160px;
+}
+
+#asupEnableDisable{
+	top:16%;
+	left:36%;
+	width:60px;
+}
+
+#healthImage{
+	top:26%;
+	left:36%;
+	width:160px;
+}
+/* end */
 #menu_upgrade{
 	top:6.5%;
 	left: 21.5%;
 	width:35px;
 }
+#upgradeControllerFW{
+	top:11.5%;
+	left: 22.5%;
+	width:130px;
+}
+/* end */
 #menu_help{
 	top:6.5%;
 	left: 24%;
